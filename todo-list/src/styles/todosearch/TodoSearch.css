@@ -9,4 +9,14 @@
   outline: 2px solid #fc9f94;
   border-radius: 6px;
   width: 90%;
+  transition: all 0.4s ease;
+}
+/* 
+.TodoSearch::placeholder {
+  content: none;
+} */
+
+.TodoSearch:focus {
+  box-shadow: 0px 0px 15px 2px #ff5359;
+  transition: all 0.4s ease;
 }

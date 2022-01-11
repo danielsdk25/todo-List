@@ -1,5 +1,5 @@
 // import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
 import { TodoCounter } from "./components/todocounter/TodoCounter";
 import { TodoSearch } from "./components/todosearch/TodoSearch";
 import { TodoList } from "./components/todolist/TodoList";
