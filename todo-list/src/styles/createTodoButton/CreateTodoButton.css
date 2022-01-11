@@ -1,0 +1,18 @@
+.CreateTodoButton {
+  width: 100%;
+  /* background-color: black; */
+  margin: auto;
+  position: sticky;
+  text-align: center;
+  position: sticky;
+  bottom: 15px;
+}
+
+.CreateTodoButton button {
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+  line-height: 1.2;
+  padding: 3px 13px;
+  margin: 0 20px;
+}
