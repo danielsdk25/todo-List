@@ -5,38 +5,47 @@
     #fcb6a2 99%,
     #fcb6a2 100%
   );
-  width: 86%;
-  height: 60px;
-  text-align: center;
   display: flex;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   position: relative;
-  margin: 20px 0;
-  padding: 0 20px;
+  margin-top: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px 2px #ff5359;
 }
 
-/* .TodoItem input {
-  margin: 20px 20px 20px 0px;
-} */
-
 .TodoItem .FormGroup .FormControlLabel .Checkbox {
-  margin: 20px 20px 20px 0px;
+  margin: 20px 10px 20px 30px;
 }
 
 .TodoItem .Button {
   border-radius: 50%;
   position: absolute;
   right: 5%;
-  top: 15%;
+  top: 20%;
   border: none;
   cursor: pointer;
 }
 
+.job--finished {
+  opacity: 0.5;
+}
+
 .TodoItem .Button:hover {
   background-color: #ffffff80;
+}
+
+.TodoItem .FormGroup .Job--completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.TodoItem .FormGroup {
+  width: 85%;
+}
+
+.TodoItem .FormGroup .FormControlLabel .Checkbox--active {
+  color: green;
 }
 
 ::-webkit-scrollbar {

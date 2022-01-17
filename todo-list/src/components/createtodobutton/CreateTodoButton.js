@@ -1,11 +1,19 @@
-import React from "react";
-import "../../styles/createTodoButton/CreateTodoButton.css";
+import React from 'react';
+import '../../styles/createTodoButton/CreateTodoButton.css';
 
 function CreateTodoButton() {
+  const createNewTaskButton = () => {
+    console.log('Se esta creando una nueva tarea');
+  };
+
   return (
-    <div className="CreateTodoButton">
-      <button type="button">+</button>
-    </div>
+    <button
+      className="CreateTodoButton"
+      type="button"
+      onClick={createNewTaskButton}
+    >
+      +
+    </button>
   );
 }
 
