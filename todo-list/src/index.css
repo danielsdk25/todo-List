@@ -17,6 +17,6 @@ body {
 }
 
 #root {
-  margin: 0 24px;
-  height: auto;
+  margin: 0 60px;
+  min-height: 100vh;
 }

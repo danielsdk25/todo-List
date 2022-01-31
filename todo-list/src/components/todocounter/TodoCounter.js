@@ -9,7 +9,4 @@ function TodoCounter({ total, completed }) {
   );
 }
 
-{
-  /* exportacion obligada */
-}
 export { TodoCounter };

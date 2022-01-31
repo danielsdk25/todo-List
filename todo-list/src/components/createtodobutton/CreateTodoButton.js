@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../styles/createTodoButton/CreateTodoButton.css';
 
-function CreateTodoButton() {
+function CreateTodoButton(props) {
   const createNewTaskButton = () => {
-    console.log('Se esta creando una nueva tarea');
+    props.setOpenModal((prevState) => !prevState);
   };
 
   return (

@@ -6,7 +6,6 @@ function TodoSearch({ search, setSearch }) {
     console.log(event.target.value);
     setSearch(event.target.value);
   };
-  // React Hooks - Inician en "use"
 
   return (
     <input
