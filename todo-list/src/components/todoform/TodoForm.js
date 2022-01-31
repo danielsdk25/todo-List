@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../../styles/todoform/TodoForm.css';
+
 function TodoForm(props) {
   const [createTodo, setCreateTodo] = React.useState('');
 
@@ -16,9 +18,9 @@ function TodoForm(props) {
   };
   return (
     <form onSubmit={onSubmit}>
-      <label>...</label>
+      <p>¡Crea tu tarea pendiente aquí!</p>
       <textarea
-        placeholder="Esta es la creación de una tarea."
+        placeholder="¿Que deseas hacer?"
         value={createTodo}
         onChange={onWrite}
       />

@@ -87,7 +87,7 @@ function App() {
       cada uno con un valor distinto */}
       </TodoList>
       {!!openModal && (
-        <Modal>
+        <Modal setOpenModal={setOpenModal}>
           <TodoForm addTodo={addTodo} setOpenModal={setOpenModal} />
         </Modal>
       )}

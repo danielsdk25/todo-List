@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  background-image: linear-gradient(
+    45deg,
+    #fc787c 0%,
+    #fcb6a2 99%,
+    #fcb6a2 100%
+  );
+  text-align: center;
+  width: 38%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+p {
+  font-size: 26px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 36px;
+}
+textarea {
+  height: 40%;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 0;
+  resize: none;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+textarea:focus {
+  border: none;
+  outline: 2px solid red;
+}
+
+form div {
+  margin: auto;
+  width: 80%;
+}
+
+form div button {
+  margin: 0 15px;
+  width: 30%;
+  padding: 6px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
